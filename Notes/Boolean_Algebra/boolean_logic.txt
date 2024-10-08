@@ -1,3 +1,4 @@
+
 ===================================== Buffer =================================
 
 0 -> 0
@@ -31,7 +32,7 @@
 
 ===================================== NAND ===================================
 
-Only logic sufficient to (alone) express any boolean function.
+        Only logic sufficient to (alone) express any boolean function.
 
 0 0 -> 1
 0 1 -> 1
@@ -92,4 +93,3 @@ which is not possible with other binary operators.
 
 
 ==================================================================================
-
