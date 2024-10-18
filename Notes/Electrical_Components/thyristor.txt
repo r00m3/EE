@@ -1,0 +1,91 @@
+
+================================================================================
+
+	Thyristor
+
+================================================================================
+
+> Thyristor is semiconductor device.
+> With 3 leads.
+> Small current at one lead will allow
+  a much larger current to flow
+  through the other two leads.
+> Controlled current is either ON or OFF.
+> Thyristors do not amplify fluctuating
+  signals like transistors do.
+> They are rather SOLID-STATE SWITCHES.
+
+
+
+	[ Silicon-controlled rectifiers. SCRs. ]
+
+> Sometimes called 4-layer PNPN diode.
+> Passes a current in only one direction.
+> Can be used as "latch" switch.
+  A latching switch is a switch that maintains its state
+  after being activated.
+  A push-to-make, push-to-break switch
+  would therefore be a latching switch –
+  each time you actuate it, whichever state the switch is left in
+  will persist until the switch is actuated again.
+	-Wikipedia.
+
+	[ SCRs are categorized according to current they can switch. ]
+
+> Low current.
+	- Switch up to 1A.
+	- At up to 100V.
+> Medium current.
+	- Switch up to 10A.
+	- At up to several hundred V.
+	- Used in solid-state switching for auto engines.
+> High current.
+	- Switch up to 2.500A.
+	- At up to several thousand V.
+	- Used in motors, lights, appliances.
+
+
+
+	[ TRIACs. ]
+
+> TRIACs are essentially SCRs that can handle AC currents.
+> Equivalent to two SCRs connected in parallel.
+> TRIAC has 5 layers + N-Type region.
+> All 3 leads make contact with TWO layers.
+
+	[ Usage of TRIACs. ]
+
+> Like SCRs, categorized according to current
+  they can switch.
+> TRIACs dont have high power capacity
+  of high current SCRs.
+
+	> Low current.
+		- Switch up to 1A.
+		- At up to several hundred V.
+	> Medium current.
+		- Switch up to 40A.
+		- At up to 1_000V.
+
+
+
+	[ Two-lead thyristors ]
+
+> SCR or TRIAC will switch on WITHOUT a GATE
+  signal if the V across its other two leads
+  reaches a certain level(breakdown voltage).
+> This self-switching ability makes possible
+  two-lead thyristors.
+
+	> Four-layer diode.
+		- SCR without a gate.
+		- Switches(on/off) DC voltage.
+	> DIAC.
+		- 3-Layer device.
+		- Similar to PNP junction transistor without
+		  a base lead.
+		- Switches(on/off) AC voltage.
+
+
+
+================================================================================
