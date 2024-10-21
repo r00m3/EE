@@ -6,9 +6,16 @@
 Illustrating PoC of boolean algebra 
 using transistors in LTSpice.
 
-> Buffer.
-> Inverter.
-> AND.
+> Boolean.
+	- AND.
+	- Buffer.
+	- Inverter.
+	- NAND.
+	- NOR.
+	- OR.
+
+> Gates.
+	- Set-Reset.
 
 
 
