@@ -14,9 +14,6 @@ using transistors in LTSpice.
 	- NOR.
 	- OR.
 
-> Gates.
-	- Set-Reset.
-
 
 
 	[ Notes ]
