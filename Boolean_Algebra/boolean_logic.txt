@@ -92,14 +92,12 @@ ________ XNOR __________________________________________________________________
 
 ________ Why XOR in cryptography _______________________________________________
 
+! Further answers might not be correct !
 
+				XOR does not leak information 
+				about the original plaintext.
 
-        (Further answers might not be correct)
-        XOR used in cryptography because:
-
-XOR does not leak information about the original plaintext.
-
-XOR is an involutory function, i.e., if you apply XOR twice,
+	XOR is an involutory function, i.e., if you apply XOR twice,
 you get the original plaintext back
 (i.e, XOR(k, XOR(k, x)) = x, where x is your plaintext
 and k is your key).
@@ -107,7 +105,7 @@ The inner XOR is the encryption and the outer XOR is the decryption,
 i.e., the exact same XOR function can be used for both encryption and
 decryption.
 
-Let's say the AND operator was used in order to generate
+	Let's say the AND operator was used in order to generate
 this encrypted byte from the original plaintext byte.
 If AND was used, then we know for certain
 that every time we see the bit '1' in the encrypted byte
@@ -120,9 +118,9 @@ is: 1 _ _ 1 _ 111.
 So 5 bits of the original plain text were leaked
 (ie, could be accessed without the key).
 
-        Other answer:
+	Other answer:
 
-Main reason is that if a random variable with unknown distribution
+	Main reason is that if a random variable with unknown distribution
 R1 is XORed with a random variable R2 with uniform distribution
 the result is a random variable with uniform distribution,
 so basically you can randomize a biased input easily
@@ -130,7 +128,7 @@ which is not possible with other binary operators.
 
 ________________________________________________________________________________
 
-        Also check :
+        Also check:
 
 > Multiplexer(Data selector).
 > Demultiplexer.
