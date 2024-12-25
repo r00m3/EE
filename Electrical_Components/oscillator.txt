@@ -1,0 +1,37 @@
+
+
+
+				Oscillator
+
+
+
+________________________________________________________________________________
+
+> Oscillators used in:
+	- Signal generators, function generators,
+  	  pulse generators.
+	- Any cyclical measuring instrument.
+	- Any instrument that initiates measurements or processes.
+	- Any instrument whose function
+	  involves periodic states or periodic waveforms.
+	- Digital multimeters, oscilloscopes,
+	  radiofrequency receivers, computers.
+	- Every computer peripheral (tape, disk, printer, terminal).
+	- Nearly every digital instrument
+	  (counters, timers, calculators,
+	  and anything with a “multiplexed display”).
+	- Every consumer electronic device
+	  (cell phone, camera, music or video player or recorder).
+	- A device without an oscillator either doesn’t do
+	  anything or expects to be driven by something else
+	  (which probably contains an oscillator).
+
+
+________ Relaxation oscillator _________________________________________________
+
+		A very simple kind of oscillator can be made by charging a
+		capacitor through a resistor (or a current source), then
+		discharging it rapidly when the voltage reaches some threshold,
+		beginning the cycle anew.
+
+________________________________________________________________________________

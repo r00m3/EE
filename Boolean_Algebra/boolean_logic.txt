@@ -1,0 +1,139 @@
+
+
+
+				Boolean logic
+
+
+
+________ Buffer ________________________________________________________________
+
+0 -> 0
+1 -> 1
+
+
+________ NOT (Inverter) ________________________________________________________
+
+0 -> 1
+1 -> 0
+
+
+________ 3-state buffer ________________________________________________________
+
+	 Control-In-Out
+
+0 0 -> 0
+0 1 -> 1
+1 X -> Hi-Z
+
+X    = Doesnt matter.
+Hi-Z = High output resistance.
+
+
+________ 3-state inverter ______________________________________________________
+
+	 Control-In-Out
+
+0 0 -> 1
+0 1 -> 0
+1 X -> Hi-Z
+
+X    = Doesnt matter.
+Hi-Z = High output resistance.
+
+________ AND ___________________________________________________________________
+
+0 0 -> 0
+0 1 -> 0
+1 0 -> 0
+1 1 -> 1
+
+
+________ OR ____________________________________________________________________
+
+0 0 -> 0
+0 1 -> 1
+1 0 -> 1
+1 1 -> 1
+
+
+________ NOR ___________________________________________________________________
+
+0 0 -> 1
+0 1 -> 0
+1 0 -> 0
+1 1 -> 0
+
+
+________ NAND __________________________________________________________________
+
+0 0 -> 1
+0 1 -> 1
+1 0 -> 1
+1 1 -> 0
+
+Only logic sufficient to (alone) express any boolean function.
+
+
+________ XOR ___________________________________________________________________
+
+0 0 -> 0
+0 1 -> 1
+1 0 -> 1
+1 1 -> 0
+
+
+________ XNOR __________________________________________________________________
+
+0 0 -> 1
+0 1 -> 0
+1 0 -> 0
+1 1 -> 1
+
+
+________ Why XOR in cryptography _______________________________________________
+
+
+
+        (Further answers might not be correct)
+        XOR used in cryptography because:
+
+XOR does not leak information about the original plaintext.
+
+XOR is an involutory function, i.e., if you apply XOR twice,
+you get the original plaintext back
+(i.e, XOR(k, XOR(k, x)) = x, where x is your plaintext
+and k is your key).
+The inner XOR is the encryption and the outer XOR is the decryption,
+i.e., the exact same XOR function can be used for both encryption and
+decryption.
+
+Let's say the AND operator was used in order to generate
+this encrypted byte from the original plaintext byte.
+If AND was used, then we know for certain
+that every time we see the bit '1' in the encrypted byte
+then the input (ie, the first column, the plain text) MUST also be '1'
+as per the truth table of AND.
+If the encrypted bit is a '0' instead, we do not know if the input
+(ie, the plain text) is a '0' or a '1'.
+Therefore, we can conclude that the original plain text
+is: 1 _ _ 1 _ 111.
+So 5 bits of the original plain text were leaked
+(ie, could be accessed without the key).
+
+        Other answer:
+
+Main reason is that if a random variable with unknown distribution
+R1 is XORed with a random variable R2 with uniform distribution
+the result is a random variable with uniform distribution,
+so basically you can randomize a biased input easily
+which is not possible with other binary operators.
+
+________________________________________________________________________________
+
+        Also check :
+
+> Multiplexer(Data selector).
+> Demultiplexer.
+> Encoder.
+> Decoder.
+________________________________________________________________________________

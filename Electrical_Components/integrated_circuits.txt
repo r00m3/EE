@@ -1,0 +1,162 @@
+
+
+
+				Integrated circuits
+
+
+
+________________________________________________________________________________
+
+> Analog/linear.
+	- Produce, amplify or respond to V.
+	- Analog ICs include many
+	  amplifiers, timers, oscillators, voltage regulators.
+> Digital/logic.
+	- Respond/produce signals
+	  having only two voltage levels.
+	- Digital ICs include
+	  microprocessors, memories, microcomputers,
+	  MANY kinds of simpler chips.
+> Some ICs combine analog and digital functions
+  on a single chip.
+> IC chips are supplied in many different packages.
+	- Dual in-line package. DIP.
+	  Most common kind of IC.
+	- CP1234. Date code.
+	  12 = 2012.
+	  34 = 34th week.
+	- Deprecated package TO-5.
+	  Looks like diode with many leads.
+	  Usually in metal can.
+
+
+________ Digital integrated circuits ___________________________________________
+
+> ALL digital integrated circuits
+  are made from gates.
+> Gates are like electronically controlled switches.
+> Gates with more than two inputs
+  are called logic circuits.
+  They make logical decisions.
+> Single input gate can be NOT gate or inverter.
+> Single input gate can be buffer.
+  It isolates gates from other circuits.
+  Or allows them to drive higher loads.
+> 3-state inverters and buffers
+  have output that can be electrically disconnected
+  from the remainder of circuit.
+  The output is then neither high, nor low.
+  it F L O A T S and appears as very high resistance.
+
+
+________ Data highways _________________________________________________________
+
+> Gates exchange information by bits.
+> Bits encoded as highs and lows. 1s/0s.
+> Bits are sent over wires.
+  Those wires are called buses.
+	- Buses can be serial or parallel.
+
+
+________ How gates are used ____________________________________________________
+
+> Network of gates are called logic circuit.
+	- Combinational.
+	- Sequential.
+
+
+________ Flip-flops ____________________________________________________________
+
+> More like a symbol
+  of the underlying construction
+  of logic gates,
+  made from transistors.
+
+
+________ Digital IC families ___________________________________________________
+
+> Bipolar digital ICs.
+	- Transistor-transistor logic [ TTL or T2L ].
+	  	Largest and most popular family.
+		Can change states 20_000_000 times/second.
+		Very inexpensive cons:
+			MUST be powered by 5V.
+			Uses LOTS of power.
+			Individual gates require 3-4mA.
+		Widely used in 7400 series.
+	- Low-power schottky TTL.
+		Newer kind of TTL.
+		Consumes only 20% as much power.
+		More expensive than standard TTL.
+		Widely used in 74LS00 series.
+> MOSFET digital ICs.
+	- P- and N-channel MOS (PMOS and NMOS).
+	  	Contain more gates per chip than TTL.
+		Many special purpose chips:
+			Microprocessors, memories etc.
+		Cons:
+			Few counterparts to popular TTL chips.
+			Slower than TTL.
+			May require two or more support voltages.
+			May be damaged by static electrical discharge.
+	- Complementary MOS [ CMOS ].
+		Fastest growing and most versatile
+		digital IC family.
+		There are CMOS versions of most popular TTL chips.
+		One series uses the same designation numbers.
+		Most CMOS has a wide supply voltage range.
+		Typically +3 to +18 V.
+		Uses less power than any other digital IC family.
+		Individual gates require 0.1 mA.
+		CMOS are as fast as TTL.
+		May be damaged by static electrical discharge.
+		Widely used in 74C00, 4000 series.
+
+
+________ Linear ICs ____________________________________________________________
+
+> Input and output voltage levels of linear ICs
+  can vary over a wide range.
+> Often the output voltage is proportional
+  to the input voltage.
+> Input-output V graph is straight linear.
+> There are many type sof linear ICs.
+
+
+________ Operational amplifiers [ OP-AMPs ] ____________________________________
+
+> By far the most versatile linear ICs.
+> Operational because they were originally
+  designed to do mathematical operations.
+> OP-AMPs amplify the DIFFERENCE
+  between voltages or signals (AC or DC),
+  applied to their two inputs.
+> The voltage applied to only one input
+  will be amplified if the second input
+  is grounded or maintained at some
+  voltage level.
+
+
+________ OP-AMP operation ______________________________________________________
+
+> OP-AMP has inverting and non-inverting input.
+> Polarity of a voltage applied to the inverting input
+  is reversed at the output.
+
+
+________ Types of OP-AMPs ______________________________________________________
+
+> Bipolar IC OP-AMP.
+> MOSFET IC OP-AMP.
+> Some bipolar OP-AMPs have FET or MOSFET inputs
+  to provide very high input resistance.
+> Single IC may include up to four individual OP-AMPs.
+
+
+________ Timers ________________________________________________________________
+
+> When operated as a comparator,
+  the OP-AMP can be used as a timer.
+> All thats required is an RC (resistor-capacitor) circuit.
+
+________________________________________________________________________________

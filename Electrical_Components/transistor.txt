@@ -1,0 +1,145 @@
+
+
+
+				Transistor
+
+
+
+________________________________________________________________________________
+
+	A bipolar junction transistor (BJT) is a type of transistor
+that uses both electrons and electron holes as charge carriers.
+In contrast, a unipolar transistor, such as a field-effect transistor (FET),
+uses only one kind of charge carrier.
+A bipolar transistor allows a small current injected at one of its terminals
+to control a much larger current flowing between the terminals,
+making the device capable of amplification or switching.
+
+	- Wikipedia.
+
+			Transistors are semiconductor devices with 3 leads.
+			A very small current or voltage at one lead
+			can control a much larger current flowing through
+			the other two leads.
+
+
+________ Bipolar transistors ___________________________________________________
+
+> Collector. (Drain).
+> Base. (Gate).
+	- Very thin.
+	- Has fewer doping atoms than the emitter and collector.
+	- Resistors before BJT base should be considered.
+	- Base-emitter junction(or diode)
+	  will not conduct until the forward voltage
+	  excess 0.6V.
+> Emitter. (Source).
+
+
+________ Usage of bipolar transistors __________________________________________
+
+> Small signal and switching.
+	- Used to amplify low level signals.
+	- Designed to be fully operated ON/OFF.
+	- Some transistors can both amplify
+	  and switch well.
+> Power.
+	- Used in high power amplifiers, power supplies.
+	- Large size and exposed metal keep them cool.
+
+> High-frequency.
+	- Operate at radio, television, microwave frequencies.
+	- Base region is very thin and actual chip is very small.
+
+
+________ Field-effect transistors. FETs ________________________________________
+
+> Became more important than bipolar transistors.
+> Easy to make and require less silicone.
+> Output current controlled by a small input voltage
+  and practically NO input current.
+> Two major FET families :
+	- Junction.
+	- Metal-oxide-semiconductor.
+
+
+________ Junction FETs. JFETs __________________________________________________
+
+> Drain. (Collector).
+> Gate. (Base).
+	- Increases channel resistance
+	  limiting drain-source current.
+	- Can be used as amplifier or switch.
+	- Gate resistance is very high.
+	  Therefore the JFET has no effect
+	  on external components
+	  connected to its gate.
+	  This is because gate and channel
+	  forms a diode.
+> Source. (Emitter).
+
+
+________ Usage of JFETs ________________________________________________________
+
+					Cant be used for high power roles.
+					Most are installed in small plastic
+					or metal packages.
+
+> Small signal and switching.
+	- Small signal JFETs are used at the input stage
+	  of amplifiers to provide a high resistance input.
+	- They are used also as switches.
+
+> High frequency.
+	- High frequency JFETs are used to
+	  amplify or produce high frequency
+	  signals.
+
+
+________ Metal-oxide-semiconductor FETs. MOSFETs _______________________________
+
+					Become most important transistor.
+					Used in microcomputers and
+					memory integrated circuits.
+
+> Easy to make.
+> Can be very small.
+> Consume negligible power.
+> Gate has no contact with source and drain.
+> Input resistance of MOSFET is the highest
+  of any transistor.
+> Almost infinite gate resistance.
+> Gate pulls no current from
+  external circuits.
+> MOSFETs can function as voltage-controlled
+  variable resistors.
+> MOSFETs can switch very HIGH currents
+  in a few billionths of a second.
+
+
+________ Usage of MOSFETs ______________________________________________________
+
+> Like FETs, MOSFETs installed in small metal
+  or plastic packages.
+> Used to give amplifiers an ultra-high input resistance.
+> Also used as voltage controlled resistors/switches.
+> Power MOSFETs allow a few volts to switch or
+  amplify many amperes at very fast speeds.
+
+
+________ Unijunction transistors. UJTs _________________________________________
+
+> UJT is not a true transistor.
+> More like a diode with two cathode connections.
+> Works like a voltage-controlled switch.
+> Does not amplify.
+
+	- Normally a small current will flow
+	  from base1 to base2.
+	- When voltage applied to emitter reaches
+	  certain threshold (several volts),
+	  the UJT switches ON,
+	  high current flows from base1
+	  to the EMITTER.
+
+________________________________________________________________________________
