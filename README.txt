@@ -1,8 +1,20 @@
 
 
 
-	[ Drawings ]
+			Electrical Engineering
 
+
+
+_ ______________________________________________________________________
+	____________________________________________________________________ _ _
+
+
+
+
+
+
+	Drawings
+________________________________________________________________________________
 Illustrating PoC of boolean algebra 
 using transistors in LTSpice.
 
@@ -16,8 +28,8 @@ using transistors in LTSpice.
 
 
 
-	[ Notes ]
-
+	Notes
+________________________________________________________________________________
 > Boolean algebra.
 	- Boolean logic.
 	- Boolean identities.     
@@ -28,5 +40,9 @@ using transistors in LTSpice.
 	- Photonic semiconductors.
 	- Thyristor.
 	- Transistor.
+
+
+
+____________________________________________________________________________ _ _
 
 
