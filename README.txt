@@ -1,12 +1,11 @@
 
-________ Electrical Engineering - Drawings _____________________________________
+________ Electrical Engineering ________________________________________________
 
 
 	Illustrating PoC of boolean algebra
 	using transistors in LTSpice.
 
-
-Boolean:
+Drawings/Boolean:
 	- AND.
 	- Buffer.
 	- Inverter.
@@ -14,14 +13,13 @@ Boolean:
 	- NOR.
 	- OR.
 
-	
-________ Electrical Engineering - Notes ________________________________________
 
+	Electrical Engineering notes.
 
-Boolean algebra:
+Boolean_Algebra:
 	- Boolean logic.
 	- Boolean identities.
-Electrical components:
+Electrical_Components:
 	- Resistor colors.
 	- Diode.
 	- Integrated circuits.
