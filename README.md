@@ -1,4 +1,4 @@
-# EE
+# Electrical Engineering
 ###### _Electrical Engineering notes, drawings and exercises._
 
 <br/>
