@@ -18,9 +18,11 @@
 ### [Electrical_Components](https://github.com/r00m3/EE/tree/main/Electrical_Components)
 ###### _Electrical Engineering notes._
 
-- Resistor colors.
 - Diode.
 - Integrated circuits.
+- Oscillator.
 - Photonic semiconductors.
+- Resistor colors.
 - Thyristor.
 - Transistor.
+
